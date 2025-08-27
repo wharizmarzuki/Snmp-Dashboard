@@ -1,9 +1,10 @@
-import { Button } from "@/components/ui/button";
+import Navbar from "./Navbar";
+import TableDemo from "./TableDemo";
 
 export default function Home() {
   return (
-    <div>
-      <Button>Click me</Button>
+    <div className="w-full border-b bg-white">
+      <Navbar />
     </div>
   );
 }
