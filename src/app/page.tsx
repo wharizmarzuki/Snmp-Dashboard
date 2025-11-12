@@ -1,10 +1,5 @@
-import Navbar from "./Navbar";
-import TableDemo from "./TableDemo";
+import { redirect } from 'next/navigation';
 
 export default function Home() {
-  return (
-    <div className="w-full border-b bg-white">
-      <Navbar />
-    </div>
-  );
+  redirect('/dashboard');
 }
